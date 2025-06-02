@@ -1,13 +1,13 @@
-name:Vikas kumar
+name: Vikas kumar
 
-on:  
+on:
   push:
-    branches:[main]
+    branches: [main]
 
 jobs:
-  demo:
-    runs-on:ubuntu-latest
+   demo:
+    runs-on: ubuntu-latest
 
-  steps:
-    - name:Grettings
-      run:echo "Hiii, vikas kumar"
+    steps:
+      - name: Grettings
+        run: echo "Hiii, vikas kumar"
