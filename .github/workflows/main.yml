@@ -1,0 +1,13 @@
+name:Vikas kumar
+
+on:  
+  push:
+    branches:[main]
+
+jobs:
+  demo:
+    runs-on:ubuntu-latest
+
+  steps:
+    - name:Grettings
+      run:echo "Hiii, vikas kumar"
